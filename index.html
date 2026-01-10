@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Creative Agency</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="img/logo.jpeg">
+
+    <meta name="description" content="Creative agency offering photography, video editing and script writing services.">
+    <meta name="keywords" content="photography, video editing, creative agency, instagram ads">
+    <meta name="author" content="Creative Agency">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Creative Agency">
+    <meta property="og:description" content="We create powerful visual stories for brands.">
+    <meta property="og:type" content="website">
+
+
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <header class="navbar">
+        <div class="logo logo-animate">
+            <a href="#" style="color:white;">
+                <img src="img/logo.jpeg" alt="Creative Agency Logo">
+                AD<span>ARTISANS</span>
+            </a>
+        </div>
+
+
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#about">About</a>
+            <a href="#team">Team</a>
+            <a href="#services">Services</a>
+            <a href="#work">Work</a>
+            <a href="#contact" class="nav-btn">Contact</a>
+
+
+        </nav>
+
+        <div class="menu-icon" id="menuIcon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+
+    <section class="hero">
+
+        <div class="cursor-glow"></div>
+
+        <div class="hero-content">
+            <h2>We Create <span>Visual Stories</span></h2>
+            <p>Photography • Editing • Film Making • Digital Promotion</p>
+            <a href="#work" class="hero-cta">
+                <span>View Our Work</span>
+                <em>Explore projects</em>
+            </a>
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="title">
+            <h3>About <span>Us</span></h3>
+        </div>
+        <p class="about-text">
+            We are a creative agency helping brands grow through powerful visuals,
+            storytelling and digital promotions.
+        </p>
+    </section>
+
+    <section id="team">
+        <div class="title">
+            <h3>Our <span>Team</span></h3>
+        </div>
+
+
+
+
+        <div class="team">
+
+            <div class="card">
+                <img src="img/gokulravi.jpeg" class="team-img" alt="Photographer">
+                <h3>GOKUL RAVI</h3>
+                <span class="role">Scripte writer</span>
+                <p>Creative Story Teller</p>
+            </div>
+
+            <div class="card">
+                <img src="img/dharanesh.jpeg" class="team-img" alt="Photographer">
+                <h3>DHARANESH</h3>
+                <span class="role">Photographer</span>
+                <p>Visual Specialist</p>
+            </div>
+
+            <div class="card">
+                <img src="img/thiru.jpeg" class="team-img" alt="Photographer">
+                <h3>THIRU</h3>
+                <span class="role">Editor</span>
+                <p>Video & Reel Editor</p>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="title">
+            <h3>Our <span>Services</span></h3>
+        </div>
+
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-camera"></i>
+                <h4>Photography</h4>
+                <p>Professional photoshoots for brands.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-video"></i>
+                <h4>Editing</h4>
+                <p>High quality video & reel editing.</p>
+            </div>
+
+            <div class="service">
+                <i class="fas fa-film"></i>
+                <h4>Film Making</h4>
+                <p>Complete video production from concept to final cut.</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="work">
+        <div class="title">
+            <h3>Our <span>Work</span></h3><br> <br>
+            <p class="swipe-hint">← Swipe to explore →</p>
+             <p class="two_tap">Double tap to open a video</p>
+        </div>
+
+        <!-- <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="ads" aria-label="Filter Ads">Ads</button>
+            <button data-filter="films" aria-label="Filter Films">Films</button>
+            <button data-filter="reels" aria-label="Filter Reels">Reels</button>
+        </div> -->
+
+
+
+
+        <div class="portfolio">
+            <div class="work-card films" data-video="videos/sample.mp4">
+                <img src="img/work1.jpg" loading="lazy" alt="Project 1">
+                <div class="work-overlay">
+                    <h4>Brand Film</h4>
+                    <span>View Project</span>
+                </div>
+            </div>
+
+            <div class="work-card ads" data-video="videos/sample.mp4">
+                <img src="img/work2.jpg" loading="lazy" alt="Project 2">
+                <div class="work-overlay">
+                    <h4>Product Ad</h4>
+                    <span>View Project</span>
+                </div>
+            </div>
+
+            <div class="work-card reels" data-video="videos/sample.mp4">
+                <img src="img/work3.jpg" loading="lazy" alt="Project 3">
+                <div class="work-overlay">
+                    <h4>Instagram Reel</h4>
+                    <span>View Project</span>
+                </div>
+            </div>
+
+            <div class="work-card films" data-video="videos/sample.mp4">
+                <img src="img/work4.jpg" loading="lazy" alt="Project 4">
+                <div class="work-overlay">
+                    <h4>Short Film</h4>
+                    <span>View Project</span>
+                </div>
+            </div>
+        </div>
+           
+
+
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section id="testimonials">
+        <div class="title">
+            <h3>Client <span>Feedback</span></h3>
+        </div>
+
+        <div class="testimonial-box">
+            <p id="testimonial-text">
+                “Amazing quality work, very professional and creative team.”
+            </p>
+            <h4 id="testimonial-name">– Client Name</h4>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="title">
+            <h3>Contact <span>Us</span></h3>
+        </div>
+
+        <div class="contact">
+
+            <div class="input-box">
+                <input type="text" id="name" required>
+                <label>Your Name</label>
+            </div>
+
+            <div class="input-box">
+                <input type="email" id="email" required>
+                <label>Your Email</label>
+            </div>
+
+            <div class="input-box">
+                <textarea rows="4" id="message" required></textarea>
+                <label>Your Message</label>
+            </div>
+
+            <button class="btn" id="sendMail" type="button">Send Message</button>
+        </div>
+
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+
+            <h3>AD <span>ARTISANS</span></h3>
+            <p>We create visual stories that connect brands with people.</p>
+
+
+            <div class="socials">
+                <a href="https://www.instagram.com/thiru_mk_?igsh=bjd4NnFkMXNyNjl4" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <button id="soundToggle" class="sound-btn">
+                🔊 Sound
+            </button> <br> <br>
+
+
+            <small>© 2026 Creative Agency • Designed by Lohith</small>
+
+        </div>
+    </footer>
+
+
+    <div id="toast" class="toast">
+        <span id="toastText"></span>
+    </div>
+
+
+    <script src="script.js"></script>
+
+    <a href="https://wa.me/916383165610" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+
+    <!-- WORK MODAL -->
+    <div class="work-modal" id="workModal">
+        <span class="close-modal" id="closeModal">&times;</span>
+        <video id="modalVideo" controls></video>
+    </div>
+
+    <audio id="hoverSound" src="sounds/hover.mp3"></audio>
+    <audio id="whooshSound" src="sounds/whoosh.mp3"></audio>
+    <audio id="clickSound" src="sounds/click.mp3"></audio>
+
+
+
+
+</body>
+
+</html>
